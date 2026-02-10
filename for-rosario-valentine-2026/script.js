@@ -138,9 +138,9 @@ resizeCanvas();
 window.addEventListener('resize', resizeCanvas);
 
 const confettiColors = [
-  '#e91e63', '#f44336', '#ff5722', '#ff9800',
-  '#ffc107', '#ffeb3b', '#e91e63', '#9c27b0',
-  '#f48fb1', '#ff80ab', '#ff4081', '#f50057',
+  '#43a047', '#66bb6a', '#81c784', '#a5d6a7',
+  '#4caf50', '#8bc34a', '#e91e63', '#f48fb1',
+  '#ff80ab', '#ff4081', '#43a047', '#2e7d32',
 ];
 
 function createConfettiPiece() {
