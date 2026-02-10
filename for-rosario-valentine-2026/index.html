@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Rosario</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Floating hearts background -->
+  <div class="hearts-bg" id="heartsBg"></div>
+
+  <!-- Password screen -->
+  <div class="screen active" id="passwordScreen">
+    <div class="card">
+      <div class="lock-icon">🔒</div>
+      <h1 class="title">Special Delivery</h1>
+      <p class="subtitle">This message is just for you</p>
+      <div class="password-form">
+        <input type="password" id="passwordInput" placeholder="Enter password" autocomplete="off">
+        <button class="btn btn-unlock" id="btnUnlock">Unlock</button>
+        <p class="error-message" id="errorMessage"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main question screen -->
+  <div class="screen" id="questionScreen">
+    <div class="card">
+      <div class="envelope" id="envelope">
+        <div class="envelope-top"></div>
+        <div class="letter">
+          <span class="heart-icon">&#10084;</span>
+        </div>
+      </div>
+      <h1 class="title">Hey Rosario...</h1>
+      <p class="subtitle">I have a very important question for you</p>
+      <h2 class="question">Will you be my Valentine?</h2>
+      <div class="buttons">
+        <button class="btn btn-yes" id="btnYes">Yes!</button>
+        <button class="btn btn-no" id="btnNo">No</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Success screen -->
+  <div class="screen" id="successScreen">
+    <div class="card success-card">
+      <div class="big-heart" id="bigHeart">&#10084;</div>
+      <h1 class="success-title">Yay!!</h1>
+      <p class="success-text">I knew you'd say yes, Rosario!</p>
+      <p class="love-message">You make every day feel like Valentine's Day. I'm so lucky to have you.</p>
+      <p class="signature">- With all my love</p>
+      <div class="xoxo">XOXO</div>
+    </div>
+  </div>
+
+  <!-- Confetti canvas -->
+  <canvas id="confettiCanvas"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
