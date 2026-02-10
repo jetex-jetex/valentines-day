@@ -1,5 +1,5 @@
 // --- Password Protection ---
-const correctPassword = 'Sol Y Mar';
+const correctPassword = 'jafetandrosario<3';
 const passwordScreen = document.getElementById('passwordScreen');
 const passwordInput = document.getElementById('passwordInput');
 const btnUnlock = document.getElementById('btnUnlock');
